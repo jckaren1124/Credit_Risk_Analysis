@@ -34,7 +34,7 @@ Balanced Random Forest Classifier
 ![image](https://user-images.githubusercontent.com/89353378/149840276-aa165e22-ed79-4bbe-bbc8-f7ab554f84eb.png)
  
 
-
+The accuracy score was the highest for the balanced random forest classifier model (0.79) and lowest for the cluster centroids undersampling and SMOTEENN combination sampling models (0.54).  The total/average precision was about the same for all the models.   The balanced random forest classifier model generated the highest average recall score while cluster centroids undersampling and SMOTEENN combination sampling showed the lowest recall score.
 
 ## Summary
 
