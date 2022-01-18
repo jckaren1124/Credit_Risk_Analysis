@@ -18,22 +18,24 @@ SMOTE Oversampling
 
 
 Cluster Centroids Undersampling  
-![image](https://user-images.githubusercontent.com/89353378/149836410-e2cbe206-fc9d-4771-8a5a-b884ad1d3648.png)
-![image](https://user-images.githubusercontent.com/89353378/149836445-4a8cdb7a-4082-413a-be0c-9767960f1acd.png)
+![image](https://user-images.githubusercontent.com/89353378/149865646-2664ce7c-55fd-401f-8a94-78910ed4a4f8.png)
+![image](https://user-images.githubusercontent.com/89353378/149865695-f8b43362-5387-4509-a621-96069b6c3d4f.png)
 
 
 
 SMOTEENN Combination (Over and Under) Sampling  
-![image](https://user-images.githubusercontent.com/89353378/149836651-9f8c0dc6-a5ac-4432-9eea-a0f464f4abf0.png)
-![image](https://user-images.githubusercontent.com/89353378/149836683-8e23db13-25fd-481f-b512-50a0272d0f3e.png)
+![image](https://user-images.githubusercontent.com/89353378/149867166-48995289-dd2a-4ea7-90c8-a4f52eecab91.png)
+![image](https://user-images.githubusercontent.com/89353378/149867209-d270e726-15d2-4d1f-b534-d6ace4b8ccac.png)
 
 
 
 Balanced Random Forest Classifier  
 ![image](https://user-images.githubusercontent.com/89353378/149840241-bd1ddf97-9372-41d7-b221-75da661d5743.png)
 ![image](https://user-images.githubusercontent.com/89353378/149840276-aa165e22-ed79-4bbe-bbc8-f7ab554f84eb.png)
-
+ 
 
 
 
 ## Summary
+
+The low accuracy rate for the cluster centroids undersampling and SMOTEENN combination sampling models might be due to eliminating too much relevant data, resulting in an increased number of inaccurate predictions.  Since recall measures the rate of true predictions, this means that the balanced random forest classifier model correctly predicted the highest number of fraudulent transactions.  All models showed about the same precision score, indicating that they are all fairly reliable on their predictions.  Based on these scores, it appears that the balanced random forest classifier model is the best model for making predictions.
